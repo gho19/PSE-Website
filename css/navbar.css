@@ -35,7 +35,7 @@ nav {
 }
 
 a.logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   display: inline-block;
@@ -92,6 +92,17 @@ a.logo {
     .logo {
         padding:1.5vh 1.5vw;
         text-align: center;
+    }
+    a.logo {
+      font-size: 27px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      display: inline-block;
+      text-decoration: none;
+      background-image: linear-gradient(#5b3787, #5b3787);
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      font-weight: bold;
     }
 
     nav {
