@@ -1,0 +1,45 @@
+.cover-image {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+.apply {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-width: auto;
+  text-align: center;
+}
+
+.faq {
+  padding-bottom: 30px;
+  width: 70%;
+  margin-left: 15%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-width: auto;
+  text-align: left;
+  line-height: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  .cover-image {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+  }
+}

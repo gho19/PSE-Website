@@ -1,0 +1,36 @@
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 70%;
+  margin-left: 15%;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-width: auto;
+  text-align: left;
+}
+
+h2 {
+  color: #5b3787;
+}
+
+.contact-image {
+  width: 55%;
+  display: block;
+  margin-left: 45%;
+  margin-top: -35%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .contact-image {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+  }
+
+}
