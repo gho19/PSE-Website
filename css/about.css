@@ -4,9 +4,6 @@
   width: 80%;
   margin-left: 10%;
   scroll-behavior: smooth;
-  overflow-y: scroll;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
   max-width: auto;
   font-size: 22px;
   text-align:center;
@@ -72,6 +69,10 @@ body {
     width: 50%;
     padding: 0 10px;
   }
+  .kelly-img {
+    width: 100%;
+    display: block; margin-left: auto;margin-right: auto; padding-top: 20px;
+  }
 
 }
 
@@ -84,4 +85,15 @@ body {
 
 h5 {
   font-size: 18px;
+}
+
+.kelly-img {
+  width: 40%;
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+.welcome {
+  text-align:center;
 }
