@@ -65,7 +65,16 @@
 
     <div class="apply">
       <br>
-      <img src="img/home.png" class="home">
+      <picture>
+        <source
+          media="(min-width: 650px)"
+          srcset="img/home.png" class="home">
+        <source
+          media="(min-width: 465px)"
+          srcset="img/home-phone.png">
+        <img
+          src="img/home.png" class="home">
+    </picture>
     </div>
     <br>
     <br>
