@@ -13,11 +13,27 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 900px;
+  color: #552380;
 }
 
 h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #4C4452;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #B2A8B8;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 * {
@@ -59,18 +75,29 @@ body {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20); /* this adds the "card" effect */
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20); /* this adds the "card" effect */
   padding: 20px;
   text-align: left;
-  background-color: #f5f5f5;
+  background-color: white;
   border-radius: 7px;
-  transition: all 0.3s ease-in-out;
   position: relative;
   display: inline-block;
 }
 
-.card:hover {
-  box-shadow: 0 12px 24px rgba(0,0,0,0.20); /* this adds the "card" effect */
+.card-1{
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20); /* this adds the "card" effect */
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+  border-radius: 7px;
+  position: relative;
+  display: inline-block;
+}
+
+.column-5 {
+  float: left;
+  width: 16.666666666%;
+  padding: 0 10px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
