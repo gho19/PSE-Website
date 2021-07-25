@@ -8,18 +8,24 @@
   max-width: auto;
   text-align: left;
   font-family: 'Karla', sans-serif;
+}
 
+.purple {
+  width: 100%;
+  background-color: #CF93FB;
+  height: 20%;
+  padding-top: 150px;
 }
 
 h2 {
-  color: #5b3787;
+  color: white;
 }
 
 .contact-image {
   width: 55%;
   display: block;
   margin-left: 45%;
-  margin-top: -35%;
+  margin-top: -40%;
 }
 
 
