@@ -9,27 +9,31 @@
   text-align: center;
 }
 
+.pp {
+  border-radius: 12.5%;
+}
+
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 20px;
   font-weight: 900px;
   color: #552380;
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   color: #4C4452;
 }
 
 h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   color: #B2A8B8;
 }
 
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 18px;
   color: #333;
   padding-left: 100px;
@@ -41,7 +45,7 @@ h6 {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 /* Float four columns side by side */
@@ -125,7 +129,7 @@ a.slide {
    background-size: 0% 2px;
    transition: background-size .3s;
    font-weight: bold;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Karla', sans-serif;
    color: #333;
 }
 

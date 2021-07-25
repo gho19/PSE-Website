@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: #333;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -31,14 +31,14 @@ nav {
 /*Styling logo*/
 .logo {
     padding:1.85vh 1.9vw;
-    padding-right: 2.3vh;
+    padding-right: 2.9vh;
     text-align: center;
 }
 
 a.logo {
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   display: inline-block;
   text-decoration: none;
   background-image: linear-gradient(#5b3787, #5b3787);
@@ -97,7 +97,7 @@ a.logo {
     a.logo {
       font-size: 27px;
       font-weight: bold;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Karla', sans-serif;
       display: inline-block;
       text-decoration: none;
       background-image: linear-gradient(#5b3787, #5b3787);

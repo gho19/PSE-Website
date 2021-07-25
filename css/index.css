@@ -12,6 +12,70 @@
   background-color: #FFF6FF;
 }
 
+#grad1 {
+  height: 650px;
+  background-color: #f5f5f5; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #552380, #7C47A7, #A56DD1, #CF93FB);
+}
+
+body {
+  height: 100%;
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  font-size: 8em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 150px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@keyframes chainReaction {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.parallax-window .welcome-page-div {
+  animation: chainReaction 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  text-align: center;
+  font-family: Beautiful ES;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.parallax-window .welcome-page-div:nth-child(1) {
+  animation-delay: 7.2s;
+}
+
+.parallax-window .welcome-page-div:nth-child(2) {
+  animation-delay: 1s;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 3s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .timeline_padding {
   padding-top: 75px;
   padding-bottom: 75px;
@@ -41,6 +105,40 @@
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.25);
   }
+
+  h1 {
+    font-size: 3.5em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  h3 {
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.image {
+  width: 85%;
+  display: block;
+  margin-left: 45%;
+  margin-top: -500px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .image {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+  }
+
 }
 
 * {
@@ -49,7 +147,7 @@
 
 /* Set a background color */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   max-width: 100%;
 }
 
@@ -193,7 +291,7 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Karla', sans-serif;
 
   }
 }
@@ -227,7 +325,7 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
 
 }
 
@@ -247,4 +345,36 @@ body {
 
 .button:hover {
   box-shadow: 0 12px 24px rgba(0,0,0,0.20); /* this adds the "card" effect */
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 2px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f5f5f5;
 }

@@ -22,10 +22,11 @@
 
 p {
   line-height: 25.5px;
+  font-family: 'Karla', sans-serif;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 /* Float four columns side by side */

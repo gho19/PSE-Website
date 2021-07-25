@@ -123,3 +123,7 @@ details[open] summary ~ * {
   0%    {opacity: 0; margin-top: -10px}
   100%  {opacity: 1; margin-top: 0px}
 }
+
+.half_highlight_purple {
+  background: linear-gradient(to top, #ebdbff 10%, transparent 10%);
+}
