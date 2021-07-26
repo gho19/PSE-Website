@@ -19,7 +19,7 @@ body.fade {
 }
 
 nav {
-    height: 12vh;
+    height: 14.5vh;
     width: 100vw;
     background-color: white;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -30,7 +30,7 @@ nav {
 
 /*Styling logo*/
 .logo {
-    padding:1.85vh 1.9vw;
+    padding:1.65vh 1.5vw;
     padding-right: 2.9vh;
     text-align: center;
 }

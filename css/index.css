@@ -38,6 +38,21 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.time-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+}
+
 @keyframes chainReaction {
   0% {
     opacity: 0;
@@ -119,6 +134,13 @@ span {
     color: white;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
   }
 }
 

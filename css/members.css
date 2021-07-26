@@ -119,6 +119,12 @@ body {
     margin-left: -1%;
   }
 
+  .column-5 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
 }
 
 
