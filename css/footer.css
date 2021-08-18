@@ -1,0 +1,19 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+
+.social_container {
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    color: #333;
+}
+
+
+p1 {
+  font-size: 12px;
+}
