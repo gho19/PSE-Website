@@ -21,6 +21,11 @@ h2 {
   color: white;
 }
 
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
 .contact-image {
   width: 55%;
   display: block;
@@ -36,6 +41,10 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 150px;
+  }
+
+  h3 {
+    font-size: 15.5px;
   }
 
 }
