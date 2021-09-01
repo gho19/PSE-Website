@@ -17,6 +17,12 @@
   text-align: center;
 }
 
+.how {
+  padding-left: 20%;
+  text-align: left;
+  padding-right: 20%
+}
+
 .faq {
   padding-bottom: 30px;
   width: 70%;
@@ -32,6 +38,18 @@
 
 p {
   font-size: 18px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+li {
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 50px;
 }
 
 @media screen and (max-width: 600px) {
